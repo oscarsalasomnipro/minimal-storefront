@@ -1,0 +1,9 @@
+{
+  "mappings": [
+    "/content/minimal-store/:/",
+    "/content/minimal-store/headers:/.helix/headers.json"
+  ],
+  "includes": [
+    "/content/minimal-store/"
+  ]
+}
