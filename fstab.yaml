@@ -1,5 +1,5 @@
 mountpoints:
-  /: https://author-p147931-e1511083.adobeaemcloud.com/bin/franklin.delivery/oscarsalasomnipro/minimal-storefront/main
+  /: https://drive.google.com/drive/folders/1ZSIeGgu9W6bQb2uiZkedh3DQFQiy3dkZ
 
 folders:
   /products/: /products/default
