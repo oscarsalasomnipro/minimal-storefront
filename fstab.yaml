@@ -1,5 +1,9 @@
 mountpoints:
-  /: https://drive.google.com/drive/folders/1ZSIeGgu9W6bQb2uiZkedh3DQFQiy3dkZ
+  /:
+    url: "https://author-p147931-e1511083.adobeaemcloud.com/bin/franklin.delivery/oscarsalasomnipro/minimal-storefront/main"
+    type: "markup"
+    suffix: ".html"
+  
 
 folders:
   /products/: /products/default
