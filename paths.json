@@ -5,6 +5,7 @@
     "/content/minimal-store/configs:/configs.json",
     "/content/minimal-store/configs-stage:/configs-stage.json",
     "/content/minimal-store/configs-dev:/configs-dev.json",
+    "/content/minimal-store/configs-facundo:/configs-facundo.json",
     "/content/minimal-store/placeholders:/placeholders.json"
   ],
   "includes": [
