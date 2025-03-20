@@ -51,7 +51,8 @@
         "cards",
         "columns",
         "fragment",
-        "commerce-mini-cart"
+        "commerce-mini-cart",
+        "commerce-cart"
       ]
     }
   ]
