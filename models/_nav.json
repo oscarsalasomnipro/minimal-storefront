@@ -1,0 +1,71 @@
+{
+  "definitions": [
+    {
+      "title": "Navigation",
+      "id": "nav",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/nav/v1/nav",
+            "template": {
+              "model": "nav"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "nav",
+      "fields": [
+        {
+          "component": "aem-content",
+          "name": "links",
+          "label": "Links",
+          "description": "Add the links for the navigation items",
+          "type": "list",
+          "fields": [
+            {
+              "component": "aem-content",
+              "name": "link",
+              "label": "Link",
+              "description": "The URL of the navigation item"
+            },
+            {
+              "component": "text",
+              "name": "linkText",
+              "label": "Text",
+              "description": "The display text of the navigation item"
+            },
+            {
+              "component": "text",
+              "name": "linkTitle",
+              "label": "Title",
+              "description": "The title for the navigation link"
+            },
+            {
+              "component": "select",
+              "name": "linkType",
+              "label": "Type",
+              "options": [
+                {
+                  "name": "default",
+                  "value": ""
+                },
+                {
+                  "name": "primary",
+                  "value": "primary"
+                },
+                {
+                  "name": "secondary",
+                  "value": "secondary"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

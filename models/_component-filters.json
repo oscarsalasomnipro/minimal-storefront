@@ -1,10 +1,11 @@
 [
   {
     "id": "main",
-    "components": [
-      "section",
-      "header"
-    ]
+    "components": ["section", "header"]
+  },
+  {
+    "id": "nav",
+    "components": []
   },
   {
     "...": "./_section.json#/filters"
