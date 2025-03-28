@@ -13,6 +13,7 @@
   {
     "id": "section",
     "components": [
+      "home",
       "text",
       "image",
       "button",
